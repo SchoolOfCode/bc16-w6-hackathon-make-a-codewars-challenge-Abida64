@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="5TkMjxAjryHGYxrqMO81" name="Page-1">
-        <mxGraphModel dx="820" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="762" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                     <mxGeometry x="230" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Pass" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="405" y="430" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="400" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="6">
                     <mxGeometry relative="1" as="geometry"/>
@@ -31,23 +31,29 @@
                 <mxCell id="8" value="Valid &amp;amp; invalid inputs&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="40" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="7">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="375" y="350" as="sourcePoint"/>
-                        <mxPoint x="455" y="340" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="465" y="340"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="20">
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="20">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Fail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="230" y="430" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Amend functionality&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="570" width="120" height="60" as="geometry"/>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Code function" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="35" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Length of Chars" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="36" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Invalid Chars" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="510" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

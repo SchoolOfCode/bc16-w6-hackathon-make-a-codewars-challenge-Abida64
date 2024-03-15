@@ -10,4 +10,5 @@ Write a functionality that takes in a string, to help Luna understand her new Ki
 
 "woem" = "too much catnip"
 
-If input is any other character other than the characters inside "meow", return "Invalid character"
+If input is any other character other than the characters inside "meow", return "Invalid character".
+If the meow is less than 4 characters, it will not register as too short.
